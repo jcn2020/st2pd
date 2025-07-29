@@ -13,7 +13,6 @@ class ListIncidentsAction(Action):
         logging.basicConfig(level=logging.INFO)
         
         # Log the input parameters
-        logging.info(f"Input parameters: {kwargs}")
         
         self.team_id = team_id
         self.team_key = team_key
