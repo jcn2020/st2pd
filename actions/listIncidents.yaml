@@ -7,13 +7,13 @@ enabled: true
 entry_point: workflows/listIncidents/main.yaml
 runner_type: orquesta
 parameters:
-  - name: team_id
+  team_id:
     type: string
     secret: true
     description: The ID of the team for which to list incidents.
     default: "{{ st2kv.system.jn_team_id }}"
 
-  - name: team_key 
+  team_key: 
     type: string
     secret: true
     description: The key for the team to authenticate API requests.
