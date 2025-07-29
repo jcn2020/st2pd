@@ -1,8 +1,7 @@
 ---
 name: listIncidents
 pack: sre_pd2_automation
-description: |
-  This workflow lists incidents from the SRE PD2 Automation pack.
+description: This workflow lists incidents from the SRE PD2 Automation pack.
 
 entry_point: workflows/listIncidents/main.yaml
 runner_type: orquestra
