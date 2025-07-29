@@ -2,7 +2,7 @@
 import os, sys, logging, time,json, requests 
 from datetime import datetime, timedelta 
 
-from st2common.runners.base import Action 
+from st2common.runners.base_action import Action 
 
 class ListIncidentsAction(Action):
     def run(self, team_id=None, team_key=None): 
