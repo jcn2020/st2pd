@@ -16,7 +16,7 @@ class ListIncidentsAction(Action):
         
         self.team_id = team_id
         self.team_key = team_key
-        self.base_url = "https://api.example.com/incidents"  # Replace with actual API endpoint
+        self.base_url = "https://api.pagerduty.com/incidents"# Replace with actual API endpoint
         self.headers = {
             'Authorization': f"Token token={self.team_key}",
             'Accept': 'application/vnd.pagerduty+json;version=2',
