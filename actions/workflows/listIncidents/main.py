@@ -45,4 +45,4 @@ class ListIncidentsAction(Action):
         # Log the fetched incidents
         # logging.info(f"Fetched incidents: {incidents}")
         
-        return incidents
+        # return incidents
