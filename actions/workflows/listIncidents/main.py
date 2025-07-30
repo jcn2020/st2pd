@@ -43,6 +43,6 @@ class ListIncidentsAction(Action):
             # Filter incidents based on team_id and team_key if provided
 
         # Log the fetched incidents
-        logging.info(f"Fetched incidents: {incidents}")
+        # logging.info(f"Fetched incidents: {incidents}")
         
         return incidents
