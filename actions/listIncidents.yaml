@@ -11,12 +11,12 @@ parameters:
     type: string
     secret: true
     description: The ID of the team for which to list incidents.
-    default: "{{ st2kv.system.jn_team_id }}"
+    default: "{{ st2kv.system.jn_team_id | decrypt_kv }}"
     position: 1
 
   team_key: 
     type: string
     secret: true
     description: The key for the team to authenticate API requests.
-    default: "{{ st2kv.system.jn_team_key }}"
+    default: "{{ st2kv.system.jn_team_key| decrypt_kv  }}"
     position: 2
